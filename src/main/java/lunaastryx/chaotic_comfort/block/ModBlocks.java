@@ -145,15 +145,15 @@ public class ModBlocks {
         entries.add(ModBlocks.PALE_OAK_PRESSURE_PLATE);
         entries.add(ModBlocks.PALE_OAK_BUTTON);
 
-        entries.add(Blocks.DRIPSTONE_BLOCK);
-        entries.add(ModBlocks.DRIPSTONE_STAIRS);
-        entries.add(ModBlocks.DRIPSTONE_SLAB);
-        entries.add(ModBlocks.DRIPSTONE_WALL);
-
         entries.add(Blocks.CALCITE);
         entries.add(ModBlocks.CALCITE_STAIRS);
         entries.add(ModBlocks.CALCITE_SLAB);
         entries.add(ModBlocks.CALCITE_WALL);
+
+        entries.add(Blocks.DRIPSTONE_BLOCK);
+        entries.add(ModBlocks.DRIPSTONE_STAIRS);
+        entries.add(ModBlocks.DRIPSTONE_SLAB);
+        entries.add(ModBlocks.DRIPSTONE_WALL);
 
         entries.add(Blocks.TUFF);
         entries.add(ModBlocks.TUFF_STAIRS);

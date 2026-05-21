@@ -1,19 +1,41 @@
-/*package lunaastryx.chaotic_comfort.util;
+package lunaastryx.chaotic_comfort.util;
 
+import lunaastryx.chaotic_comfort.item.ModItems;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.minecraft.loot.LootPool;
+import net.minecraft.loot.condition.RandomChanceLootCondition;
+import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.function.SetCountLootFunction;
+import net.minecraft.loot.provider.number.ConstantLootNumberProvider;
+import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.util.Identifier;
 
 public class ModLootTableModifiers {
-    public static final Identifier CAT_MORNING_GIFT_ID =
+    private static final Identifier CAT_MORNING_GIFT_ID =
             new Identifier("minecraft", "gameplay/cat_morning_gift");
 
+
     public static void modifyLootTables() {
-        LootTableEvents.MODIFY.register((resourceManager, lootManager, identifier, builder, lootTableSource) -> {
+        LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
             if(CAT_MORNING_GIFT_ID.equals(id)) {
+                {
+                    LootPool.Builder poolBuilder = LootPool.builder()
+                            .rolls(ConstantLootNumberProvider.create(1))
+                            .conditionally(RandomChanceLootCondition.builder(.11f))
+                            .with(ItemEntry.builder(ModItems.ELEVENTH_HOUR_MUSIC_DISC))
+                            .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                    tableBuilder.pool(poolBuilder.build());
+                }
                 LootPool.Builder poolBuilder = LootPool.builder()
-                        .rolls()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(.11f))
+                        .with(ItemEntry.builder(ModItems.SOLSTICE_MUSIC_DISC))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
+
+                tableBuilder.pool(poolBuilder.build());
+
             }
         });
     }
-} */
+}
