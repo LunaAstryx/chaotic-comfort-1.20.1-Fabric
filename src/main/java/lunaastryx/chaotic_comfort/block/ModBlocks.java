@@ -155,6 +155,11 @@ public class ModBlocks {
         entries.add(ModBlocks.DRIPSTONE_SLAB);
         entries.add(ModBlocks.DRIPSTONE_WALL);
 
+        entries.add(Blocks.SMOOTH_BASALT);
+        entries.add(ModBlocks.SMOOTH_BASALT_STAIRS);
+        entries.add(ModBlocks.SMOOTH_BASALT_SLAB);
+        entries.add(ModBlocks.SMOOTH_BASALT_WALL);
+
         entries.add(Blocks.TUFF);
         entries.add(ModBlocks.TUFF_STAIRS);
         entries.add(ModBlocks.TUFF_SLAB);
@@ -171,11 +176,6 @@ public class ModBlocks {
         entries.add(ModBlocks.POLISHED_TUFF_STAIRS);
         entries.add(ModBlocks.POLISHED_TUFF_SLAB);
         entries.add(ModBlocks.POLISHED_TUFF_WALL);
-
-        entries.add(Blocks.SMOOTH_BASALT);
-        entries.add(ModBlocks.SMOOTH_BASALT_STAIRS);
-        entries.add(ModBlocks.SMOOTH_BASALT_SLAB);
-        entries.add(ModBlocks.SMOOTH_BASALT_WALL);
     }
 
     private static Block registerBlock(String name, Block block) {
