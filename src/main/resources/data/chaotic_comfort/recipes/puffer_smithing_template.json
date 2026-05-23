@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#_#",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "_": {
+      "item": "chaotic_comfort:puffer_armor_trim_smithing_template"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "chaotic_comfort:puffer_armor_trim_smithing_template"
+  }
+}

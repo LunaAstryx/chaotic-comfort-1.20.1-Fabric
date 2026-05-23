@@ -84,6 +84,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ELECTRIC_GUITAR, Models.HANDHELD);
         itemModelGenerator.register(ModItems.BAGUETTE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.GOLDEN_NETHER_STAR, Models.GENERATED);
+        itemModelGenerator.register(ModItems.PUFFER_ARMOR_TRIM, Models.GENERATED);
         itemModelGenerator.register(ModItems.POMMES_ROT_WEISS_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.RULER_OF_MY_HEART_MUSIC_DISC, Models.GENERATED);
         itemModelGenerator.register(ModItems.CURE_MUSIC_DISC, Models.GENERATED);

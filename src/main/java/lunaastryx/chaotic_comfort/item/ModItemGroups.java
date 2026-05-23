@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.BAGUETTE);
                         entries.add(ModItems.GOLDEN_NETHER_STAR);
                         entries.add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC);
+                        entries.add(ModItems.PUFFER_ARMOR_TRIM);
 
                     }).build());
 

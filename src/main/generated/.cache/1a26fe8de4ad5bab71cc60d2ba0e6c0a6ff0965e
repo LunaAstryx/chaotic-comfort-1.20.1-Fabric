@@ -1,4 +1,4 @@
-// 1.20.1	2026-05-14T20:51:39.6416465	Chaotic Comfort/Model Definitions
+// 1.20.1	2026-05-23T14:30:37.7556034	Chaotic Comfort/Model Definitions
 ae4f7ccb2e5e20175316cd027166d0f0caaa780b assets\minecraft\blockstates\calcite.json
 bdbe3cb3bd0a1005a80714185a0cd77ed46ef605 assets\chaotic_comfort\models\item\karma_music_disc.json
 63aa6ecda736d5d92d394c22793e868bb9ccb96b assets\chaotic_comfort\models\block\polished_tuff_slab_top.json
@@ -142,6 +142,7 @@ f918689e403e01874e0aa2919e50a0e9cca0c0af assets\chaotic_comfort\blockstates\drip
 122b39422a1ebb4285cf150c2115fa4c084aac1a assets\chaotic_comfort\models\item\pale_oak_fence_gate.json
 67cdcd8bb68a5352f10df6152734b8a2f33df7e9 assets\chaotic_comfort\models\block\dripstone_slab_top.json
 b06780e43e13fb31f8e5da36ebfaca20878f315b assets\chaotic_comfort\models\block\pale_oak_slab.json
+4a69b0a32d934ee1d1f01f6492fa6d49129fb21b assets\chaotic_comfort\models\item\puffer_armor_trim_smithing_template.json
 4d907ff9b4767ff062d28d40a63edd5db7592271 assets\chaotic_comfort\models\block\calcite_stairs_outer.json
 94197ee181eda60bb7fdf856e0543395d2db4ab7 assets\chaotic_comfort\models\block\stripped_pale_oak_log.json
 bdbb521b3278ef0dbea2850f49b738e6cec1f5c3 assets\chaotic_comfort\models\block\pale_oak_fence_post.json

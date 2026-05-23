@@ -6,6 +6,7 @@ import lunaastryx.chaotic_comfort.item.ModItems;
 import lunaastryx.chaotic_comfort.painting.ModPaintings;
 import lunaastryx.chaotic_comfort.sound.ModSounds;
 import lunaastryx.chaotic_comfort.util.ModCustomTrades;
+import lunaastryx.chaotic_comfort.util.ModLootTableModifiers;
 import lunaastryx.chaotic_comfort.villager.ModVillagers;
 import net.fabricmc.api.ModInitializer;
 
@@ -30,6 +31,8 @@ public class ChaoticComfort implements ModInitializer {
 
 		ModCustomTrades.registerCustomTrades();
 		ModVillagers.registerVillagers();
+
+		ModLootTableModifiers.modifyLootTables();
 
 		StrippableBlockRegistry.register(ModBlocks.PALE_OAK_LOG, ModBlocks.STRIPPED_PALE_OAK_LOG);
 		StrippableBlockRegistry.register(ModBlocks.PALE_OAK_WOOD, ModBlocks.STRIPPED_PALE_OAK_WOOD);

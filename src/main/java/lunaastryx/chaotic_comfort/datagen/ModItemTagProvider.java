@@ -43,5 +43,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PALE_OAK_WOOD.asItem())
                 .add(ModBlocks.STRIPPED_PALE_OAK_WOOD.asItem());
 
+        getOrCreateTagBuilder(ItemTags.TRIM_TEMPLATES)
+                .add(ModItems.PUFFER_ARMOR_TRIM);
     }
 }

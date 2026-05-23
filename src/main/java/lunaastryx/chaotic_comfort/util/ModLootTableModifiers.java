@@ -21,7 +21,7 @@ public class ModLootTableModifiers {
                 {
                     LootPool.Builder poolBuilder = LootPool.builder()
                             .rolls(ConstantLootNumberProvider.create(1))
-                            .conditionally(RandomChanceLootCondition.builder(.11f))
+                            .conditionally(RandomChanceLootCondition.builder(0.11f))
                             .with(ItemEntry.builder(ModItems.ELEVENTH_HOUR_MUSIC_DISC))
                             .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
@@ -29,7 +29,7 @@ public class ModLootTableModifiers {
                 }
                 LootPool.Builder poolBuilder = LootPool.builder()
                         .rolls(ConstantLootNumberProvider.create(1))
-                        .conditionally(RandomChanceLootCondition.builder(.11f))
+                        .conditionally(RandomChanceLootCondition.builder(0.11f))
                         .with(ItemEntry.builder(ModItems.SOLSTICE_MUSIC_DISC))
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
