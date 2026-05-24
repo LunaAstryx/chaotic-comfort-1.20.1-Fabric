@@ -19,9 +19,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
                 .add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC)
-                .add(ModItems.RULER_OF_MY_HEART_MUSIC_DISC)
-                .add(ModItems.CURE_MUSIC_DISC)
-                .add(ModItems.KARMA_MUSIC_DISC)
                 .add(ModItems.ELEVENTH_HOUR_MUSIC_DISC)
                 .add(ModItems.SOLSTICE_MUSIC_DISC);
 

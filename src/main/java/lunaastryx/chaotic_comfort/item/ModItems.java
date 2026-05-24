@@ -28,13 +28,6 @@ public class ModItems {
     public static final Item POMMES_ROT_WEISS_MUSIC_DISC = registerItem("pommes_rot_weiss_music_disc",
             new MusicDiscItem(7, ModSounds.POMMES_ROT_WEISS, new FabricItemSettings().maxCount(1), 61));
 
-    public static final Item RULER_OF_MY_HEART_MUSIC_DISC = registerItem("romh_music_disc",
-            new MusicDiscItem(7, ModSounds.RULER_OF_MY_HEART, new FabricItemSettings().maxCount(1), 218));
-    public static final Item CURE_MUSIC_DISC = registerItem("cure_music_disc",
-            new MusicDiscItem(7, ModSounds.CURE, new FabricItemSettings().maxCount(1), 247));
-    public static final Item KARMA_MUSIC_DISC = registerItem("karma_music_disc",
-            new MusicDiscItem(7, ModSounds.KARMA, new FabricItemSettings().maxCount(1), 338));
-
     public static final Item ELEVENTH_HOUR_MUSIC_DISC = registerItem("eleventh_hour_music_disc",
             new MusicDiscItem(7, ModSounds.ELEVENTH_HOUR, new FabricItemSettings().maxCount(1), 191));
     public static final Item SOLSTICE_MUSIC_DISC = registerItem("solstice_music_disc",

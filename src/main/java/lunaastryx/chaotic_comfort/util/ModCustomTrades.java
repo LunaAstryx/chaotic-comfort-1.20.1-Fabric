@@ -132,19 +132,6 @@ public class ModCustomTrades {
                             new ItemStack(Items.EMERALD, 13),
                             new ItemStack(ModItems.PUFFER_ARMOR_TRIM, 1),
                             1, 67, 0.075f));
-
-                    factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 16),
-                            new ItemStack(ModItems.RULER_OF_MY_HEART_MUSIC_DISC, 1),
-                            1, 67, 0.075f));
-                    factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 16),
-                            new ItemStack(ModItems.KARMA_MUSIC_DISC, 1),
-                            1, 67, 0.075f));
-                    factories.add((entity, random) -> new TradeOffer(
-                            new ItemStack(Items.EMERALD, 16),
-                            new ItemStack(ModItems.CURE_MUSIC_DISC, 1),
-                            1, 67, 0.075f));
                 });
     }
 }

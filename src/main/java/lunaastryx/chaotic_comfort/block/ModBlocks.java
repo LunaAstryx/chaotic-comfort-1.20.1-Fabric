@@ -7,13 +7,20 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
+import net.minecraft.world.BlockView;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class ModBlocks {
 
@@ -111,7 +118,13 @@ public class ModBlocks {
             new LeavesBlock(FabricBlockSettings.copyOf(Blocks.CHERRY_LEAVES).nonOpaque()));
 
     public static final Block PALE_OAK_SAPLING = registerBlock("pale_oak_sapling",
-            new SaplingBlock(new PaleOakSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.DARK_OAK_SAPLING)));
+            new SaplingBlock(new PaleOakSaplingGenerator(), FabricBlockSettings.copyOf(Blocks.DARK_OAK_SAPLING)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable BlockView world, List<Text> tooltip, TooltipContext options) {
+                    tooltip.add(Text.translatable("block.chaotic_comfort.pale_oak_sapling.desc"));
+                    super.appendTooltip(stack, world, tooltip, options);
+                }
+            });
 
     public static final Block PURPLE_TULIP = registerBlock("purple_tulip",
             new FlowerBlock(StatusEffects.RESISTANCE, 7, FabricBlockSettings.copyOf(Blocks.WHITE_TULIP).nonOpaque()));
