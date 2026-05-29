@@ -7,8 +7,7 @@
 
   "item.chaotic_comfort.baguette": "Baguette",
   "tooltip.chaotic_comfort.baguette.tooltip": "How do you kill a French vampire? Drive a baguette through its heart, it's a painstaking process.",
-
-  "item.chaotic_comfort.cloak": "Cloak",
+  "sounds.chaotic_comfort.baguette_hit": "Baguette Hit",
 
   "block.chaotic_comfort.purple_tulip": "Purple Tulip",
   "block.chaotic_comfort.yellow_tulip": "Yellow Tulip",

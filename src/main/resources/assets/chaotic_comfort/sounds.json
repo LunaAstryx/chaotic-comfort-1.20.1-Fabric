@@ -1,4 +1,11 @@
 {
+  "baguette_hit": {
+    "subtitle": "sounds.chaotic_comfort.baguette_hit",
+    "sounds": [
+        "chaotic_comfort:yummy",
+        "chaotic_comfort:nomnomnom"
+    ]
+  },
   "pommes_rot_weiss": {
     "sounds": [
       {

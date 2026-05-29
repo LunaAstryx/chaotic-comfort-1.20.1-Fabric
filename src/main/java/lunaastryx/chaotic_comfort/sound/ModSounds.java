@@ -8,6 +8,8 @@ import net.minecraft.util.Identifier;
 
 public class ModSounds {
 
+    public static final SoundEvent BAGUETTE_HIT = registerSoundEvent("baguette_hit");
+
     public static final SoundEvent POMMES_ROT_WEISS = registerSoundEvent("pommes_rot_weiss");
 
     public static final SoundEvent ELEVENTH_HOUR = registerSoundEvent("eleventh_hour");
