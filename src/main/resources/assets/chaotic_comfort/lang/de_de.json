@@ -1,0 +1,79 @@
+{
+  "item.chaotic_comfort.golden_nether_star": "Goldener Nether Stern",
+
+  "trim_pattern.chaotic_comfort.puffer_armor_trim": "Kult-Rüstungsbesatz",
+
+  "item.chaotic_comfort.electric_guitar": "Elektrische Gitarre",
+
+  "item.chaotic_comfort.baguette": "Baguette",
+  "tooltip.chaotic_comfort.baguette.tooltip": "Wie ermordet man einen französischen Vampir? Ram ein Baguette durch des Vampires Herzen, Es ist ein schmerzvoller Prozess.",
+  "sounds.chaotic_comfort.baguette_hit": "Baguette Schlag",
+
+  "block.chaotic_comfort.purple_tulip": "Lila Tulpe",
+  "block.chaotic_comfort.yellow_tulip": "Gelbe Tulpe",
+
+  "item.chaotic_comfort.pommes_rot_weiss_music_disc": "Nicht ernstnehmbare Schallplatte",
+  "item.chaotic_comfort.pommes_rot_weiss_music_disc.desc": "Pommes Rot Weiss - @tacokaiser",
+
+  "item.chaotic_comfort.eleventh_hour_music_disc": "Schallplatte",
+  "item.chaotic_comfort.eleventh_hour_music_disc.desc": "Eleventh Hour - Nightmargin",
+  "item.chaotic_comfort.solstice_music_disc": "Schallplatte",
+  "item.chaotic_comfort.solstice_music_disc.desc": "Solstice - Nightmargin",
+
+  "block.chaotic_comfort.calcite_slab": "Kalzit Stufe",
+  "block.chaotic_comfort.calcite_stairs": "Kalzit Treppen",
+  "block.chaotic_comfort.calcite_wall": "Kalzit Mauer",
+
+  "block.chaotic_comfort.dripstone_slab": "Tropfstein Stufe",
+  "block.chaotic_comfort.dripstone_stairs": "Tropfstein Treppen",
+  "block.chaotic_comfort.dripstone_wall": "Tropfstein Mauer",
+
+  "block.chaotic_comfort.smooth_basalt_slab": "Glatt-basalt Stufe",
+  "block.chaotic_comfort.smooth_basalt_stairs": "Glatt-basalt Treppen",
+  "block.chaotic_comfort.smooth_basalt_wall": "Glatt-basalt Mauer",
+
+  "block.chaotic_comfort.tuff_slab": "Tuff Stufe",
+  "block.chaotic_comfort.tuff_stairs": "Tuff Treppen",
+  "block.chaotic_comfort.tuff_wall": "Tuff Mauer",
+
+  "block.chaotic_comfort.tuff_bricks": "Tuff Ziegel",
+  "block.chaotic_comfort.tuff_brick_slab": "Tuff Ziegel Stufe",
+  "block.chaotic_comfort.tuff_brick_stairs": "Tuff Ziegel Treppen",
+  "block.chaotic_comfort.tuff_brick_wall": "Tuff Ziegel Mauer",
+
+  "block.chaotic_comfort.polished_tuff": "Polierte Tuff",
+  "block.chaotic_comfort.polished_tuff_slab": "Polierte Tuff Stufe",
+  "block.chaotic_comfort.polished_tuff_stairs": "Polierte Tuff Treppen",
+  "block.chaotic_comfort.polished_tuff_wall": "Polierte Tuff Mauer",
+
+  "block.chaotic_comfort.chiseled_tuff": "gemeißelter Tuff",
+  "block.chaotic_comfort.chiseled_tuff_bricks": "gemeißelte Tuff Ziegel",
+
+  "block.chaotic_comfort.pale_moss_block": "blaser Moss",
+  "block.chaotic_comfort.pale_moss_carpet": "blaser Moss Teppich",
+
+  "block.chaotic_comfort.pale_oak_planks": "blasse Eichen Bretter",
+  "block.chaotic_comfort.pale_oak_stairs": "blasse Eichen Treppen",
+  "block.chaotic_comfort.pale_oak_slab": "blasse Eichen Stufe",
+  "block.chaotic_comfort.pale_oak_button": "blasser Eichen Knopf",
+  "block.chaotic_comfort.pale_oak_pressure_plate": "blasse Eichen Druckplatte",
+  "block.chaotic_comfort.pale_oak_fence": "blasser Eichen Zaun",
+  "block.chaotic_comfort.pale_oak_fence_gate": "blasses Eichen Zauntor",
+  "block.chaotic_comfort.pale_oak_door": "blasse Eichen Tür",
+  "block.chaotic_comfort.pale_oak_trapdoor": "blasse Eichen Falltür",
+  "block.chaotic_comfort.pale_oak_leaves": "blasses Eichen Laub",
+  "block.chaotic_comfort.pale_oak_sapling": "blasser Eichen Sätzling",
+  "block.chaotic_comfort.pale_oak_sapling.desc": "versuchs erst nd bro",
+  "block.chaotic_comfort.pale_oak_log": "blasser Eichen Baumstamm",
+  "block.chaotic_comfort.pale_oak_wood": "blasses Eichenholz",
+  "block.chaotic_comfort.stripped_pale_oak_log": "gehäuteter blasse Eichen Baumstamm",
+  "block.chaotic_comfort.stripped_pale_oak_wood": "gehäuteter blasse Eichenholz",
+
+  "entity.minecraft.villager.guy": "Typ",
+  "entity.minecraft.villager.florist": "Botanik Typ",
+
+  "painting.chaotic_comfort.victory.author": "Duh",
+  "painting.chaotic_comfort.victory.title": "Sieg",
+
+  "itemgroup.chaotic_comfort": "Chaotische Bequemlichkeit"
+}

@@ -49,6 +49,7 @@ public class ModItems {
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.GOLDEN_NETHER_STAR);
+        entries.add(ModItems.PUFFER_ARMOR_TRIM);
     }
 
     private static void addItemsToCombatTabItemGroup(FabricItemGroupEntries entries) {
