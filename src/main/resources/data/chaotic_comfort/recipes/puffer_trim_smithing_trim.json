@@ -7,6 +7,6 @@
     "tag": "minecraft:trimmable_armor"
   },
   "template": {
-    "item": "chaotic_comfort:puffer_armor_trim_smithing_template"
+    "item": "chaotic_comfort:puffer_item_trim"
   }
 }

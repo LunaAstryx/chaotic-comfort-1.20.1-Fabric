@@ -35,7 +35,7 @@
         "trims/models/armor/raiser_leggings",
         "trims/models/armor/host",
         "trims/models/armor/host_leggings",
-        "chaotic_comfort:trims/models/armor/puffer_armor_trim"
+        "trims/models/armor/puffer_armor_trim"
       ],
       "palette_key": "trims/color_palettes/trim_palette",
       "permutations": {

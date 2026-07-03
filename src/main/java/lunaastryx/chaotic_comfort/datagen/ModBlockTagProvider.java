@@ -17,9 +17,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.DRIPSTONE_STAIRS)
-                .add(ModBlocks.DRIPSTONE_SLAB)
-                .add(ModBlocks.DRIPSTONE_WALL)
                 .add(ModBlocks.CALCITE_STAIRS)
                 .add(ModBlocks.CALCITE_SLAB)
                 .add(ModBlocks.CALCITE_WALL)
@@ -87,7 +84,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PALE_OAK_LEAVES);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
-                .add(ModBlocks.DRIPSTONE_WALL)
                 .add(ModBlocks.SMOOTH_BASALT_WALL)
                 .add(ModBlocks.CALCITE_WALL)
                 .add(ModBlocks.TUFF_WALL)
@@ -95,7 +91,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TUFF_BRICK_WALL);
 
         getOrCreateTagBuilder(BlockTags.SLABS)
-                .add(ModBlocks.DRIPSTONE_SLAB)
                 .add(ModBlocks.SMOOTH_BASALT_SLAB)
                 .add(ModBlocks.CALCITE_SLAB)
                 .add(ModBlocks.TUFF_SLAB)
@@ -104,7 +99,6 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PALE_OAK_SLAB);
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
-                .add(ModBlocks.DRIPSTONE_STAIRS)
                 .add(ModBlocks.SMOOTH_BASALT_STAIRS)
                 .add(ModBlocks.CALCITE_STAIRS)
                 .add(ModBlocks.TUFF_STAIRS)

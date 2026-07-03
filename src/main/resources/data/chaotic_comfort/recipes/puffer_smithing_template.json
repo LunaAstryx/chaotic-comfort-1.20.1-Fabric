@@ -10,13 +10,13 @@
       "item": "minecraft:diamond"
     },
     "_": {
-      "item": "chaotic_comfort:puffer_armor_trim_smithing_template"
+      "item": "chaotic_comfort:puffer_item_trim"
     },
     "C": {
       "item": "minecraft:carrot"
     }
   },
   "result": {
-    "item": "chaotic_comfort:puffer_armor_trim_smithing_template"
+    "item": "chaotic_comfort:puffer_item_trim"
   }
 }

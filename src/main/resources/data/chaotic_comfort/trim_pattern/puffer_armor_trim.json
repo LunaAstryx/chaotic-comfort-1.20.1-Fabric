@@ -3,5 +3,5 @@
   "description": {
     "translate": "trim_pattern.chaotic_comfort.puffer_armor_trim"
   },
-  "template_item": "chaotic_comfort:puffer_armor_trim_smithing_template"
+  "template_item": "chaotic_comfort:puffer_item_trim"
 }

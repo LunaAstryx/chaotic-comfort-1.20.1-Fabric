@@ -1,9 +1,6 @@
 {
   "replace": false,
   "values": [
-    "chaotic_comfort:dripstone_stairs",
-    "chaotic_comfort:dripstone_slab",
-    "chaotic_comfort:dripstone_wall",
     "chaotic_comfort:calcite_stairs",
     "chaotic_comfort:calcite_slab",
     "chaotic_comfort:calcite_wall",

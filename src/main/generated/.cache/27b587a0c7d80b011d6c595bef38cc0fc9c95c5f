@@ -1,5 +1,4 @@
-// 1.20.1	2026-05-24T10:35:31.0837851	Chaotic Comfort/Block Loot Tables
-d17f483ec66cd8b7507d0f4f4cceef98fa3f9129 data\chaotic_comfort\loot_tables\blocks\dripstone_wall.json
+// 1.20.1	2026-07-03T17:00:17.4824084	Chaotic Comfort/Block Loot Tables
 b5b344d8c895ab91641c663982942bcbe348ee34 data\chaotic_comfort\loot_tables\blocks\purple_tulip.json
 26d1b2427597edf753cfc51fb2c558a61c68092f data\chaotic_comfort\loot_tables\blocks\stripped_pale_oak_wood.json
 2d290e0898c9b38635abb964f0290384c12ea409 data\chaotic_comfort\loot_tables\blocks\pale_oak_fence.json
@@ -12,7 +11,6 @@ b406c33bd6a2ae82610629b62cf81ce2039b1e34 data\chaotic_comfort\loot_tables\blocks
 e178af437c2c707ff7822adc12e78f90d84bfbf0 data\chaotic_comfort\loot_tables\blocks\pale_oak_wood.json
 948c10f7221f0a1180daeac94d774614a489e697 data\chaotic_comfort\loot_tables\blocks\polished_tuff.json
 253283aff9485620e94b17fad38eef44564607f1 data\chaotic_comfort\loot_tables\blocks\pale_oak_trapdoor.json
-8c4b98aed6fbd2145c758514fde881fe759cf3bd data\chaotic_comfort\loot_tables\blocks\dripstone_stairs.json
 ec070a68f71e64c848b4a5f16d0d2070802633ab data\chaotic_comfort\loot_tables\blocks\chiseled_tuff_bricks.json
 379d41a5ede26df918416da6058968d66c4b6647 data\chaotic_comfort\loot_tables\blocks\smooth_basalt_slab.json
 fd772e144d3e8d39d9c7e1323de8f01beab30902 data\chaotic_comfort\loot_tables\blocks\polished_tuff_wall.json
@@ -26,7 +24,6 @@ f29c48c756cc4a1e8a74ab96e305b01c55b91316 data\chaotic_comfort\loot_tables\blocks
 9cccb7b6047397758d182da635af4e73cc76ef28 data\chaotic_comfort\loot_tables\blocks\tuff_brick_wall.json
 f9497e2446a7f9861a2845184b0df73032a3c493 data\chaotic_comfort\loot_tables\blocks\tuff_bricks.json
 7536e37e597b94c63b49537ac0f534bba8426670 data\chaotic_comfort\loot_tables\blocks\pale_oak_fence_gate.json
-438eaca31d0af83bb3cca5e0040e3d3dfcf21895 data\chaotic_comfort\loot_tables\blocks\dripstone_slab.json
 325dea8addd1d48b06d132d58727a387996e6b66 data\chaotic_comfort\loot_tables\blocks\pale_oak_slab.json
 00dd55d24c61ea60230f8ce77852e4622367b466 data\chaotic_comfort\loot_tables\blocks\polished_tuff_stairs.json
 14f1caf4b92ac1bdf0ace1731f068cc37e75a391 data\chaotic_comfort\loot_tables\blocks\tuff_slab.json

@@ -1,8 +1,7 @@
-// 1.20.1	2026-05-24T10:35:31.0847856	Chaotic Comfort/Tags for minecraft:item
+// 1.20.1	2026-07-03T17:00:17.4824084	Chaotic Comfort/Tags for minecraft:item
 bbdcd28c0edadabd819fb53a2976757c38691800 data\minecraft\tags\items\axes.json
 ab3e2dd65bba0454173d70b03a43e2cca3eab341 data\minecraft\tags\items\planks.json
 0140c403834e21308623168927f1bd151b5d918b data\minecraft\tags\items\beacon_payment_items.json
 27b3ecb4ed399d094d08c798b9fd57ac7fa25e46 data\minecraft\tags\items\logs_that_burn.json
-9ba4ef59608029688a40a2e1a18265197e548279 data\minecraft\tags\items\trim_templates.json
 d6f57e9bac14107dd3d446dce235e157d4a2e3bf data\minecraft\tags\items\swords.json
 ae9623e4bad75eae1a7da0a2ad92e3e6648fc463 data\minecraft\tags\items\music_discs.json

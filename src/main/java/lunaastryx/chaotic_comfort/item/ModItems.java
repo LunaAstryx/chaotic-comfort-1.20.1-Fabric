@@ -22,7 +22,7 @@ public class ModItems {
     public static final Item GOLDEN_NETHER_STAR = registerItem("golden_nether_star",
             new Item(new FabricItemSettings().fireproof()));
 
-    public static final Item PUFFER_ARMOR_TRIM = registerItem("puffer_armor_trim_smithing_template",
+    public static final Item PUFFER_ARMOR_TRIM = registerItem("puffer_item_trim",
             SmithingTemplateItem.of(new Identifier("chaotic_comfort", "puffer_armor_trim")));
 
     public static final Item POMMES_ROT_WEISS_MUSIC_DISC = registerItem("pommes_rot_weiss_music_disc",

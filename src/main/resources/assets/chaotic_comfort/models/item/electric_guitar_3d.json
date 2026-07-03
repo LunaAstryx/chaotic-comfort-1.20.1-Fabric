@@ -607,12 +607,12 @@
 		"firstperson_righthand": {
 			"rotation": [90, 90, 133],
 			"translation": [13, 4.5, 2],
-			"scale": [1, 1, 1.67]
+			"scale": [1.67, 1.67, 1.67]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-90, -90, 43],
 			"translation": [-12.5, 4.5, 1.5],
-			"scale": [1, 1, 1.67]
+			"scale": [1.67, 1.67, 1.67]
 		},
 		"ground": {
 			"rotation": [0, 0, 45],

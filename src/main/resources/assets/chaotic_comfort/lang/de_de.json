@@ -1,7 +1,8 @@
 {
   "item.chaotic_comfort.golden_nether_star": "Goldener Nether Stern",
 
-  "trim_pattern.chaotic_comfort.puffer_armor_trim": "Kult-Rüstungsbesatz",
+  "item.chaotic_comfort.puffer_item_trim": "Kult-Rüstungsbesatz",
+  "trim_pattern.chaotic_comfort.puffer_armor_trim": "Schmiedevorlage",
 
   "item.chaotic_comfort.electric_guitar": "Elektrische Gitarre",
 

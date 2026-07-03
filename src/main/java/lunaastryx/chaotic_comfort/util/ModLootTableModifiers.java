@@ -13,11 +13,12 @@ import net.minecraft.util.Identifier;
 public class ModLootTableModifiers {
     private static final Identifier CAT_MORNING_GIFT_ID =
             new Identifier("minecraft", "gameplay/cat_morning_gift");
-
+    private static final Identifier FISHING_TREASURE_ID =
+            new Identifier("minecraft", "gameplay/fishing/treasure");
 
     public static void modifyLootTables() {
         LootTableEvents.MODIFY.register((resourceManager, lootManager, id, tableBuilder, source) -> {
-            if(CAT_MORNING_GIFT_ID.equals(id)) {
+            if (CAT_MORNING_GIFT_ID.equals(id)) {
                 {
                     LootPool.Builder poolBuilder = LootPool.builder()
                             .rolls(ConstantLootNumberProvider.create(1))
@@ -34,6 +35,15 @@ public class ModLootTableModifiers {
                         .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
                 tableBuilder.pool(poolBuilder.build());
+
+            }
+
+            if (FISHING_TREASURE_ID.equals(id)) {
+                LootPool.Builder poolbuilder = LootPool.builder()
+                        .rolls(ConstantLootNumberProvider.create(1))
+                        .conditionally(RandomChanceLootCondition.builder(0.067f))
+                        .with(ItemEntry.builder(ModItems.PUFFER_ARMOR_TRIM))
+                        .apply(SetCountLootFunction.builder(UniformLootNumberProvider.create(1.0f, 1.0f)).build());
 
             }
         });
