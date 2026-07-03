@@ -18,9 +18,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.MUSIC_DISCS)
-                .add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC)
-                .add(ModItems.ELEVENTH_HOUR_MUSIC_DISC)
-                .add(ModItems.SOLSTICE_MUSIC_DISC);
+                .add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC);
 
         getOrCreateTagBuilder(ItemTags.AXES)
                 .add(ModItems.ELECTRIC_GUITAR);

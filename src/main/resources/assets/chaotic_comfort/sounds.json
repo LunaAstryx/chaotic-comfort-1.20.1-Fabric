@@ -13,21 +13,5 @@
         "stream": true
       }
     ]
-  },
-"eleventh_hour": {
-  "sounds": [
-    {
-      "name": "chaotic_comfort:eleventh_hour",
-      "stream": true
-    }
-  ]
-},
-  "solstice": {
-    "sounds": [
-      {
-        "name": "chaotic_comfort:solstice",
-        "stream": true
-      }
-    ]
   }
 }

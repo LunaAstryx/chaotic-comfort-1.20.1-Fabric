@@ -28,11 +28,6 @@ public class ModItems {
     public static final Item POMMES_ROT_WEISS_MUSIC_DISC = registerItem("pommes_rot_weiss_music_disc",
             new MusicDiscItem(7, ModSounds.POMMES_ROT_WEISS, new FabricItemSettings().maxCount(1), 61));
 
-    public static final Item ELEVENTH_HOUR_MUSIC_DISC = registerItem("eleventh_hour_music_disc",
-            new MusicDiscItem(7, ModSounds.ELEVENTH_HOUR, new FabricItemSettings().maxCount(1), 191));
-    public static final Item SOLSTICE_MUSIC_DISC = registerItem("solstice_music_disc",
-            new MusicDiscItem(7, ModSounds.SOLSTICE, new FabricItemSettings().maxCount(1), 167));
-
     public static final Item ELECTRIC_GUITAR = registerItem("electric_guitar",
             new AxeItem(ModToolMaterial.ELECTRIC_GUITAR, 0, -2.67f, new FabricItemSettings().maxCount(1).fireproof()));
 
@@ -59,8 +54,6 @@ public class ModItems {
 
     private static void addItemsToToolsTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(ModItems.POMMES_ROT_WEISS_MUSIC_DISC);
-        entries.add(ModItems.ELEVENTH_HOUR_MUSIC_DISC);
-        entries.add(ModItems.SOLSTICE_MUSIC_DISC);
     }
 
     private static Item registerItem(String name, Item item) {

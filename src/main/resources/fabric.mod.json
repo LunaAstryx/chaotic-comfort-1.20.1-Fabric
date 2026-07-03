@@ -3,7 +3,7 @@
 	"id": "chaotic_comfort",
 	"version": "${version}",
 	"name": "Chaotic Comfort",
-	"description": "When I try to do anything, its always a mess",
+	"description": "I 💜 Yuri",
 	"authors": [
 		"LunaAstryx!"
 	],
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/chaotic-comfort/icon.png",
+	"icon": "assets/chaotic_comfort/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

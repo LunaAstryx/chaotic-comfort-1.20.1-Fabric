@@ -1,4 +1,4 @@
-// 1.20.1	2026-07-03T17:00:17.4814083	Chaotic Comfort/Tags for minecraft:block
+// 1.20.1	2026-07-03T22:50:16.2955091	Chaotic Comfort/Tags for minecraft:block
 a13fae1e44773afab0df7207d95cd9257f06b5b4 data\minecraft\tags\blocks\fences.json
 bb952fa678aefe695c94bde8a5f549588dbaafa0 data\minecraft\tags\blocks\mineable\axe.json
 27b3ecb4ed399d094d08c798b9fd57ac7fa25e46 data\minecraft\tags\blocks\logs_that_burn.json
@@ -8,7 +8,7 @@ ae35b749bc9f658f26f7881b18bf2dba99196819 data\minecraft\tags\blocks\small_flower
 bef9548c384b1fd3a1e88403c87c8cc22550768a data\minecraft\tags\blocks\leaves.json
 894c4b1799176894db117dc48b5008d7424b935f data\minecraft\tags\blocks\stairs.json
 bed34ddf8fa8ec2af564e392ace8691dc60bf260 data\minecraft\tags\blocks\walls.json
-2ac326e35820829ff25227bb38003fdb21ecc367 data\minecraft\tags\blocks\flowers.json
 0e4c2a3f6632973c3d507805b0439ece84245ad3 data\minecraft\tags\blocks\mineable\pickaxe.json
+2ac326e35820829ff25227bb38003fdb21ecc367 data\minecraft\tags\blocks\flowers.json
 74b3edb8bbd963a35c0217bd81a028c55c2f22d5 data\minecraft\tags\blocks\beacon_base_blocks.json
 ab3e2dd65bba0454173d70b03a43e2cca3eab341 data\minecraft\tags\blocks\planks.json
